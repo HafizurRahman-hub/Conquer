@@ -1,0 +1,140 @@
+body {
+    font-family: 'Monserrat';
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+p {
+    color: grey;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+/* sections  */
+
+/* title  */
+
+.img-text-holder img {
+    height: 65vh;
+    width: 100%;
+}
+
+/* making text content responsive over image  */
+
+.img-text-holder {
+    position: relative;
+    display: inline-block;
+}
+
+.title-text-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* about us  */
+
+.balance-card-btn {
+    margin-bottom: 4.3rem;
+}
+
+#about-us {
+    padding: 4%;
+}
+
+/* services  */
+
+#services {
+    text-align: left;
+    padding: auto;
+}
+
+#services h1, h2 {
+    text-align: center;
+}
+
+#services h1 {
+    padding: 4%;
+}
+
+/* contact us  */
+
+#contact-us {
+    margin-top: 5%;
+    background-image: url("bg-3.jpg");
+    background-position: center;
+    color: #fff;
+}
+
+#contact-us p {
+    font-weight: bold;
+    color: black;
+}
+
+#contact-us h1 {
+    text-align: center;
+}
+
+hr {
+    color: cyan;
+    border-radius: 3rem;
+    border: 3px solid ;
+}
+button{
+    margin-bottom: 3rem;
+}
+
+.form {
+    padding: 40%;
+}
+.vertical-line{
+    border-left: 2px solid cyan;
+    position: absolute;
+    display: inline-block;
+    height:300px;
+    width: 2px;
+    left:49%;
+    margin-top: 5rem;
+}
+@media (max-width:995px){
+    .vertical-line{
+        display: none;
+    }
+    body{
+        text-align: center;
+        height: 75vh;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+/* footer  */
+
+#footer {
+    text-align: center;
+    background-color: grey;
+}
+
+.icon {
+    margin: 1%;
+    margin-top: 3rem;
+}
+
+.icon:hover {
+    color: cyan;
+}
+
+#footer p {
+    color: #fff;
+}
